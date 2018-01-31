@@ -4,7 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:background="@color/base"
+    android:orientation="vertical"
     tools:context="eduardo.kasio.caraoucoroaapk.MainActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imgBtnJogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/botao_jogar" />
+</LinearLayout>

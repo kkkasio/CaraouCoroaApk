@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/base"
+        android:orientation="vertical"
+        tools:context="eduardo.kasio.caraoucoroaapk.DetalheActivity">
+
+        <ImageView
+            android:id="@+id/imgMoeda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            />
+
+    <ImageView
+        android:id="@+id/imgBtnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/botao_voltar" />
+</LinearLayout>
+
